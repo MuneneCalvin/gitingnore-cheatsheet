@@ -1,9 +1,10 @@
-Pattern        |       Explanation / Matches                  |     Examples
-----------------------------------------------------------------------------------------------------
-Name.file      | All files with the name.file will be ignored | /name.file, /lib/name.file
-* .env         | All files with .env will be ignored          | venv.env
-* .log         | Ignore all files with a .log extension       | user.log
-/build         | Ignore all files in the build/ directory     | 
-docs/**/*.txt  | Ignore all .txt files in the directory       | file.txt
-* .swp         | Ignore all files with a .swp                 | name.swp
+
+Pattern       |                  Explanation/Matches                     |   examples   
+--------------|----------------------------------------------------------|-------------
+name.file     | All files with the name.file will be ignored             |/name.file <br> /lib/name.file                                                           
+*.env         | Ignore all file with .env                                | name.env                                                          
+node_modules/ | All files with the node_module /directory will be ignored|
+*.log         | All files with .log extension will be ignored            | name.log
+build/        | All  files with build /directory will be ignored         | 
+*.pdf         | All files with the .pdf extension will be ignore         | file.pdf
 
